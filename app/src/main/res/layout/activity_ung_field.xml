@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg0">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cs_store_2"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_null"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/select_your_field"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="false"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbarSize="4dp"
+                android:scrollbarTrackVertical="@color/white"
+                android:scrollbarThumbVertical="@color/purple_700">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/cs"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="3"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/computer_science"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/se"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/software_engineering"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/ee"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/electrical_engineering"
+                            android:textColor="@color/white"
+
+
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/bba"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/business_administration"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/ce"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/computer_engineering"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/maths"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/mathematics"
+                            android:textColor="@color/white"
+
+                            android:textSize="15sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/AF"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/accounting_and_finance"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/eco"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/economics"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/cybers"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/cyber_security"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/datasc"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/data_science"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/AI"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/artificial_intelligence"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/BI"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/bioinformatics"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/phy"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/physics"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/eng"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/english"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/civileng"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/civil_engineering"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/me"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/mechanical_engineering"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/mas"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/management_sciences"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/pharm"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/pharmacy"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/arts"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/fine_art"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/psy"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/psychology"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/biosc"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/biosciences"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/border">
+
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/chem"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="@string/chemistry"
+                            android:textColor="@color/white"
+                            android:textSize="15sp"
+
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-8836108209861797/7916797397"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></com.google.android.gms.ads.AdView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

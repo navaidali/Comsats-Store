@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "262133693824",
+    "firebase_url": "https://comsats-store-89e2e-default-rtdb.firebaseio.com",
+    "project_id": "comsats-store-89e2e",
+    "storage_bucket": "comsats-store-89e2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262133693824:android:953dcc9025e6d3caabd565",
+        "android_client_info": {
+          "package_name": "com.navaidtechnologies.comsatsstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262133693824-mkk2aumboabiahvvsmvnplrfitrgnpn0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.navaidtechnologies.comsatsstore",
+            "certificate_hash": "d334fbc25f4187d11821c93d5a8e4ccf21328ee7"
+          }
+        },
+        {
+          "client_id": "262133693824-qr844s21asdfmv7sgu44ts41fg6lft27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmlnrsdFlAaPDLbkjxl_O7qtTrwDrzigc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262133693824-qr844s21asdfmv7sgu44ts41fg6lft27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

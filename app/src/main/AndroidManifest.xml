@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.navaidtechnologies.comsatsstore">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ComsatsStore">
+        <activity android:name=".EE_eighth_subs"></activity>
+        <activity android:name=".EE_seventh_subs" />
+        <activity android:name=".EE_sixth_subs" />
+        <activity android:name=".EE_fifth_subs" />
+        <activity android:name=".EE_fourth_subs" />
+        <activity android:name=".EE_third_subs" />
+        <activity android:name=".BBA_sixth_subs" />
+        <activity android:name=".BBA_fifth_subs" />
+        <activity android:name=".BBA_fourth_subs" />
+        <activity android:name=".BBA_third_subs" />
+        <activity android:name=".BBA_second_subs" />
+        <activity android:name=".BBA_first_subs" />
+        <activity android:name=".SE_eighth_subs" />
+        <activity android:name=".SE_seventh_subs" />
+        <activity android:name=".SE_sixth_subs" />
+        <activity android:name=".SE_fifth_subs" />
+        <activity android:name=".SE_fourth_subs" />
+        <activity android:name=".SE_third_subs" />
+        <activity android:name=".SE_second_subs" />
+        <activity android:name=".SE_first_subs" />
+        <activity android:name=".MCS_semester_activity" />
+        <activity android:name=".EE_second_subs" />
+        <activity android:name=".EE_first_subs" />
+        <activity android:name=".CE_semester_activity" />
+        <activity android:name=".CE_second_subs" />
+        <activity android:name=".mth_fourth_subs" />
+        <activity android:name=".mth_third_subs" />
+        <activity android:name=".mth_second_subs" />
+        <activity android:name=".mth_first_subs" />
+        <activity android:name=".CE_first_subs" />
+        <activity android:name=".CS_eight_subs" />
+        <activity android:name=".CS_seventh_subs" />
+        <activity android:name=".CS_sixth_subs" />
+        <activity android:name=".CS_fifth_subs" />
+        <activity android:name=".MCS_fourth_subs" />
+        <activity android:name=".MCS_third_subs" />
+        <activity android:name=".MCS_second_subs" />
+        <activity android:name=".MCS_first_subs" />
+        <activity android:name=".viewpdf" />
+        <activity android:name=".uploadfile" />
+        <activity android:name=".CS_fourth_subs" />
+        <activity android:name=".CS_third_subs" />
+        <activity android:name=".CS_second_subs" />
+        <activity android:name=".CS_first_subs" />
+        <activity android:name=".maths_semester_activity">
+            android:screenOrientation="portrait"
+        </activity>
+        <activity
+            android:name=".BBA_semester_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EE_semester_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SE_semester_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CS_semester_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".g_field_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ung_field_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".programActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splash_screen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8836108209861797~4922743056" />
+    </application>
+
+</manifest>
